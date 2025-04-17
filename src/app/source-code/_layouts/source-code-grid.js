@@ -1,8 +1,10 @@
 "use client";
 import React from "react";
-import { Box, SimpleGrid } from "@chakra-ui/react";
+import { Box, Flex, IconButton, SimpleGrid, Text } from "@chakra-ui/react";
 import SourceCodeCard from "./source-code-card";
 import { PAGE_PATH_KEYS } from "@/utils/constant";
+import { FaArrowAltCircleLeft } from "react-icons/fa";
+import Link from "next/link";
 
 const SourceCodeGrid = () => {
   const sourceCodeLink = [
@@ -38,15 +40,17 @@ const SourceCodeGrid = () => {
     },
   ];
   return (
-    <SimpleGrid columns={{ base: 2, md: 4 }} spacing={2}>
-      {sourceCodeLink.map((sourceCode, inx, arr) => {
-        return (
-          <Box key={inx}>
-            <SourceCodeCard sourceCode={sourceCode} />
-          </Box>
-        );
-      })}
-    </SimpleGrid>
+    <Box>
+      <SimpleGrid columns={{ base: 2, md: 4 }} spacing={2} mt={2}>
+        {sourceCodeLink.map((sourceCode, inx, arr) => {
+          return (
+            <Box key={inx}>
+              <SourceCodeCard sourceCode={sourceCode} />
+            </Box>
+          );
+        })}
+      </SimpleGrid>
+    </Box>
   );
 };
 
