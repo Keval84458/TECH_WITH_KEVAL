@@ -1,11 +1,12 @@
 import React from "react";
-import { Box, Text } from "@chakra-ui/react";
+import { PageWrapper } from "@/utils";
+import NextJsGrid from "./_layouts/next-js-grid";
 
 const NextJs = () => {
   return (
-    <Box>
-      <Text>NextJs</Text>
-    </Box>
+    <PageWrapper>
+      <NextJsGrid />
+    </PageWrapper>
   );
 };
 

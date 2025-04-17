@@ -1,11 +1,12 @@
-import { Box, Text } from "@chakra-ui/react";
 import React from "react";
+import { PageWrapper } from "@/utils";
+import ReactJsGrid from "./_layouts/react-js-grid";
 
 const ReactJs = () => {
   return (
-    <Box>
-      <Text>ReactJs</Text>
-    </Box>
+    <PageWrapper>
+      <ReactJsGrid />
+    </PageWrapper>
   );
 };
 
