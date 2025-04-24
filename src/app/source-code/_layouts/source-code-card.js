@@ -34,7 +34,8 @@ const SourceCodeCard = ({ sourceCode }) => {
               as={Link}
               href={sourceCode.link}
               bg="primary.400"
-              _hover={{ bg: "primary.400" }}
+              transition="all .5s ease"
+              _hover={{ bg: "primary.400", transform: "scale(1.1)" }}
               _disabled={{ bg: "primary.400" }}
             >
               Get Source Code
