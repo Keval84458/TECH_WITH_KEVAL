@@ -95,14 +95,14 @@ const HeroSection = () => {
 
       <Box mt={4} mb="1rem">
         <Text textAlign="center" fontSize="125">
-          Hi, I'm Keval, a passionate Frontend Developer and the creator of Tech
-          with Keval. My goal is to simplify web development for learners and
-          help aspiring developers crack their dream frontend jobs. On this
+          Hi, I&apos;m Keval, a passionate Frontend Developer and the creator of
+          Tech with Keval. My goal is to simplify web development for learners
+          and help aspiring developers crack their dream frontend jobs. On this
           channel, I share powerful coding tutorials, practical tips, and quick
           frontend interview questions through engaging YouTube Shorts. Whether
-          you're diving into React, exploring Next.js, or preparing for your
-          next tech interview, you're in the right place. Let's grow
-          together—code smart, learn fast, and build something awesome!
+          you&apos;re diving into React, exploring Next.js, or preparing for
+          your next tech interview, you&apos;re in the right place. Let&apos;s
+          grow together—code smart, learn fast, and build something awesome!
         </Text>
       </Box>
     </Box>
