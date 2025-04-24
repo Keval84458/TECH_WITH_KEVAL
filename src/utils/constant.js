@@ -8,5 +8,6 @@ export const PAGE_PATH_KEYS = {
   NEXT_JS: "/next-js",
   ANIMATION_EFFECT: "/animation-effect",
   NOTIFICATION_MODALS: "/notification-modals",
+  CAROUSAL_SLIDER: "/carousal-slider",
   OTHERS: "/others",
 };
