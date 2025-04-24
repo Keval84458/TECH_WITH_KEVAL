@@ -1,11 +1,12 @@
-import { Box, Text } from "@chakra-ui/react";
 import React from "react";
+import { PageWrapper } from "@/utils";
+import OthersGrid from "./_layouts/others-grid";
 
 const Others = () => {
   return (
-    <Box>
-      <Text>Others</Text>
-    </Box>
+    <PageWrapper>
+      <OthersGrid />
+    </PageWrapper>
   );
 };
 

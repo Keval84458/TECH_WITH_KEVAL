@@ -7,7 +7,6 @@ const ReactJsGrid = () => {
   const zipFileData = [
     {
       id: "Installation to React Js",
-      thumbnail: "/Reactjs/Thumbnails/install React js.png",
       title: "Installation to React Js",
       link: "",
     },
@@ -15,7 +14,7 @@ const ReactJsGrid = () => {
 
   return (
     <Box>
-      <SimpleGrid columns={{ base: 2, md: 4 }} spacing={2}>
+      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={2}>
         {zipFileData.map((fileDetails, inx, arr) => {
           return (
             <Box key={inx}>

@@ -27,7 +27,7 @@ const SourceCodeCard = ({ sourceCode }) => {
             borderRadius="lg"
           />
           <Stack mt="6" spacing="3">
-            <Heading size="md" textAlign="center">
+            <Heading size="md" textAlign="center" fontFamily="body">
               {sourceCode.title}
             </Heading>
             <Button

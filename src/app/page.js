@@ -1,9 +1,19 @@
-import { Box, Text } from "@chakra-ui/react";
+import { PageWrapper } from "@/utils";
+import HeroSection from "./components/hero-section";
 
 export default function Home() {
   return (
-    <Box>
-      <Text bg="primary.200">Tech with Keval</Text>
-    </Box>
+    <PageWrapper
+      mb={0}
+      minH="100vh"
+      bgImage="/background/Hero3.jpg"
+      bgSize="cover"
+      bgPosition="center"
+      bgRepeat="no-repeat"
+      position="relative"
+      color="white"
+    >
+      <HeroSection />
+    </PageWrapper>
   );
 }

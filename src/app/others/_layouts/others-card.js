@@ -1,15 +1,8 @@
 "use client";
-import {
-  Button,
-  Card,
-  CardBody,
-  Heading,
-  Image,
-  Stack,
-} from "@chakra-ui/react";
+import { Button, Card, CardBody, Heading, Stack } from "@chakra-ui/react";
 import React from "react";
 
-const ReactJsCard = ({ fileDetails }) => {
+const OthersCard = ({ fileDetails }) => {
   return (
     <Card direction={{ base: "column", sm: "row" }} overflow="hidden">
       <Stack>
@@ -34,4 +27,4 @@ const ReactJsCard = ({ fileDetails }) => {
   );
 };
 
-export default ReactJsCard;
+export default OthersCard;
