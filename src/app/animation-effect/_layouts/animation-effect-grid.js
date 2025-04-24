@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import { Box, SimpleGrid } from "@chakra-ui/react";
-import NextJsCard from "./next-js-card";
-const NextJsGrid = () => {
+import AnimationsEffectCard from "./animation-effect-card";
+const AnimationsEffectGrid = () => {
   const zipFileData = [
     {
       id: "Installation of Next Js",
@@ -17,7 +17,7 @@ const NextJsGrid = () => {
         {zipFileData.map((fileDetails, inx, arr) => {
           return (
             <Box key={inx}>
-              <NextJsCard fileDetails={fileDetails} />
+              <AnimationsEffectCard fileDetails={fileDetails} />
             </Box>
           );
         })}
@@ -26,4 +26,4 @@ const NextJsGrid = () => {
   );
 };
 
-export default NextJsGrid;
+export default AnimationsEffectGrid;

@@ -1,11 +1,13 @@
 import React from "react";
-import { Box, Text } from "@chakra-ui/react";
+import { PageWrapper } from "@/utils";
+import NotificationModalsCard from "./_layouts/notification-modals-card";
+import NotificationModalsGrid from "./_layouts/notification-modals-grid";
 
 const NotificationAndModals = () => {
   return (
-    <Box>
-      <Text>NotificationAndModals</Text>
-    </Box>
+    <PageWrapper>
+      <NotificationModalsGrid />
+    </PageWrapper>
   );
 };
 

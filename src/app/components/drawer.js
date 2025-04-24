@@ -3,14 +3,12 @@ import React, { useRef } from "react";
 import {
   Drawer,
   DrawerBody,
-  DrawerFooter,
   DrawerHeader,
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
   Button,
   useDisclosure,
-  Input,
   VStack,
 } from "@chakra-ui/react";
 import { TiThMenu } from "react-icons/ti";
@@ -32,16 +30,16 @@ export function DrawerCMP() {
       link: PAGE_PATH_KEYS.SOURCE_CODE,
       title: "Source Code",
     },
-    {
-      id: PAGE_PATH_KEYS.YOUTUBE,
-      link: PAGE_PATH_KEYS.YOUTUBE,
-      title: "Youtube",
-    },
-    {
-      id: PAGE_PATH_KEYS.ABOUT_US,
-      link: PAGE_PATH_KEYS.ABOUT_US,
-      title: "About Us",
-    },
+    // {
+    //   id: PAGE_PATH_KEYS.YOUTUBE,
+    //   link: PAGE_PATH_KEYS.YOUTUBE,
+    //   title: "Youtube",
+    // },
+    // {
+    //   id: PAGE_PATH_KEYS.ABOUT_US,
+    //   link: PAGE_PATH_KEYS.ABOUT_US,
+    //   title: "About Us",
+    // },
   ];
 
   return (

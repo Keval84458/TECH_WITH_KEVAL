@@ -1,11 +1,12 @@
-import { Box, Text } from "@chakra-ui/react";
 import React from "react";
+import { PageWrapper } from "@/utils";
+import AnimationsEffectGrid from "./_layouts/animation-effect-grid";
 
 const AnimationsAndEffect = () => {
   return (
-    <Box>
-      <Text>AnimationsAndEffect</Text>
-    </Box>
+    <PageWrapper>
+      <AnimationsEffectGrid />
+    </PageWrapper>
   );
 };
 
