@@ -7,7 +7,7 @@ const CarousalSlidersGrid = () => {
     {
       id: "React Slick",
       title: "React Slick",
-      link: "",
+      link: "/Carousals/ZipFile/react-slick.zip",
     },
   ];
 
