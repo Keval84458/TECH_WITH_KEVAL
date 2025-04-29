@@ -9,6 +9,11 @@ const CarousalSlidersGrid = () => {
       title: "React Slick",
       link: "/Carousals/ZipFile/react-slick.zip",
     },
+    {
+      id: "SwiperJs",
+      title: "Swiper Js",
+      link: "/Carousals/ZipFile/Swiper.zip",
+    },
   ];
 
   return (
