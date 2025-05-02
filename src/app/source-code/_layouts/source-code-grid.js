@@ -6,12 +6,12 @@ import { PAGE_PATH_KEYS } from "@/utils/constant";
 
 const SourceCodeGrid = () => {
   const sourceCodeLink = [
-    // {
-    //   id: "React Js full cource|2025",
-    //   link: PAGE_PATH_KEYS.REACT_JS,
-    //   img: "/CodeThumbnails/React.png",
-    //   title: "React Js full cource|2025",
-    // },
+    {
+      id: "React Js full cource|2025",
+      link: PAGE_PATH_KEYS.REACT_JS,
+      img: "/CodeThumbnails/React.png",
+      title: "React Js full cource|2025",
+    },
     // {
     //   id: "Next Js full cource|2025",
     //   link: PAGE_PATH_KEYS.NEXT_JS,
