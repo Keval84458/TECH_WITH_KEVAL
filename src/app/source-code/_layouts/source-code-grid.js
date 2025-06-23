@@ -12,12 +12,12 @@ const SourceCodeGrid = () => {
       img: "/CodeThumbnails/React.png",
       title: "React Js full cource|2025",
     },
-    // {
-    //   id: "Next Js full cource|2025",
-    //   link: PAGE_PATH_KEYS.NEXT_JS,
-    //   img: "/CodeThumbnails/Next.png",
-    //   title: "Next Js full cource|2025",
-    // },
+    {
+      id: "Next Js full cource|2025",
+      link: PAGE_PATH_KEYS.NEXT_JS,
+      img: "/CodeThumbnails/Next.png",
+      title: "Next Js full cource|2025",
+    },
     // {
     //   id: "Animations & Effects",
     //   link: PAGE_PATH_KEYS.ANIMATION_EFFECT,
